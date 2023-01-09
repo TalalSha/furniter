@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Cart - Withington Furniture</title>
+    <?php require_once('includes/header.php');?>
+
+    <section class="subBanner" id="aboutBanner">
+      <div class="container relative _inner regular text-center">
+        <h1 class="mx_bold">Shopping Cart</h1>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li>/</li>
+          <li>Shopping Cart</li>
+        </ul>
+      </div>
+    </section>
+    <!-- subBanner -->
+
+    <section id="shopCart" class="sec_marg">
+      <div class="container regular">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 LSide">
+            <ul class="checkList">
+              <li class="_head">
+                <div class="pro_cart">Product</div>
+                <div class="size_cart">Size</div>
+                <div class="qty_cart">Quantity</div>
+                <div class="price_cart">Price</div>
+              </li>
+              <li>
+                <div class="pro_cart">
+                  <div class="ico">
+                    <a href="?"><img src="images/items/1.png" alt="" /></a>
+                  </div>
+                  <div class="pro_name">
+                    <h4><a href="?">Green Office Chair</a></h4>
+                    <p>
+                      Dignissimos at vero eos et accusamus et iusto odio ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti
+                    </p>
+                  </div>
+                </div>
+                <div class="size_cart"><span>XL</span></div>
+                <div class="qty_cart">
+                  <div class="qtyBtn">
+                    <input type="button" value="-" class="qtyminus readBtn" />
+                    <input
+                      type="button"
+                      name="quantity"
+                      value="1"
+                      class="qty"
+                    />
+                    <input type="button" value="+" class="qtyplus readBtn" />
+                  </div>
+                </div>
+                <div class="price_cart">
+                  <div class="price">$ 270.00</div>
+                  <span class="closeBtn"><samp>Delete</samp></span>
+                </div>
+              </li>
+              <li>
+                <div class="pro_cart">
+                  <div class="ico">
+                    <a href="?"><img src="images/items/2.png" alt="" /></a>
+                  </div>
+                  <div class="pro_name">
+                    <h4><a href="?">Cover Wood Table</a></h4>
+                    <p>
+                      Dignissimos at vero eos et accusamus et iusto odio ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti
+                    </p>
+                  </div>
+                </div>
+                <div class="size_cart"><span>S</span></div>
+                <div class="qty_cart">
+                  <div class="qtyBtn">
+                    <input type="button" value="-" class="qtyminus readBtn" />
+                    <input
+                      type="button"
+                      name="quantity"
+                      value="1"
+                      class="qty"
+                    />
+                    <input type="button" value="+" class="qtyplus readBtn" />
+                  </div>
+                </div>
+                <div class="price_cart">
+                  <div class="price">$ 270.00</div>
+                  <span class="closeBtn"><samp>Delete</samp></span>
+                </div>
+              </li>
+              <li>
+                <div class="pro_cart">
+                  <div class="ico">
+                    <a href="?"><img src="images/items/3.png" alt="" /></a>
+                  </div>
+                  <div class="pro_name">
+                    <h4><a href="?">Study Wood Chair</a></h4>
+                    <p>
+                      Dignissimos at vero eos et accusamus et iusto odio ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti
+                    </p>
+                  </div>
+                </div>
+                <div class="size_cart"><span>M</span></div>
+                <div class="qty_cart">
+                  <div class="qtyBtn">
+                    <input type="button" value="-" class="qtyminus readBtn" />
+                    <input
+                      type="button"
+                      name="quantity"
+                      value="1"
+                      class="qty"
+                    />
+                    <input type="button" value="+" class="qtyplus readBtn" />
+                  </div>
+                </div>
+                <div class="price_cart">
+                  <div class="price">$ 270.00</div>
+                  <span class="closeBtn"><samp>Delete</samp></span>
+                </div>
+              </li>
+              <li>
+                <div class="pro_cart">
+                  <div class="ico">
+                    <a href="?"><img src="images/items/4.png" alt="" /></a>
+                  </div>
+                  <div class="pro_name">
+                    <h4><a href="?">Corona Classic Wood Table</a></h4>
+                    <p>
+                      Dignissimos at vero eos et accusamus et iusto odio ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti
+                    </p>
+                  </div>
+                </div>
+                <div class="size_cart"><span>XL</span></div>
+                <div class="qty_cart">
+                  <div class="qtyBtn">
+                    <input type="button" value="-" class="qtyminus readBtn" />
+                    <input
+                      type="button"
+                      name="quantity"
+                      value="1"
+                      class="qty"
+                    />
+                    <input type="button" value="+" class="qtyplus readBtn" />
+                  </div>
+                </div>
+                <div class="price_cart">
+                  <div class="price">$ 270.00</div>
+                  <span class="closeBtn"><samp>Delete</samp></span>
+                </div>
+              </li>
+              <li>
+                <div class="pro_cart">
+                  <div class="ico">
+                    <a href="?"><img src="images/items/5.png" alt="" /></a>
+                  </div>
+                  <div class="pro_name">
+                    <h4><a href="?">Arcorn Red Sofa</a></h4>
+                    <p>
+                      Dignissimos at vero eos et accusamus et iusto odio ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti
+                    </p>
+                  </div>
+                </div>
+                <div class="size_cart"><span>XS</span></div>
+                <div class="qty_cart">
+                  <div class="qtyBtn">
+                    <input type="button" value="-" class="qtyminus readBtn" />
+                    <input
+                      type="button"
+                      name="quantity"
+                      value="1"
+                      class="qty"
+                    />
+                    <input type="button" value="+" class="qtyplus readBtn" />
+                  </div>
+                </div>
+                <div class="price_cart">
+                  <div class="price">$ 270.00</div>
+                  <span class="closeBtn"><samp>Delete</samp></span>
+                </div>
+              </li>
+            </ul>
+            <div class="bTn text-center">
+              <a href="index.php" class="readBtn">Continue Shopping</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 RSide">
+            <h4>Special Notes and Measurements</h4>
+            <textarea
+              class="txtBox"
+              placeholder="Order Notes"
+              id="specialNote"
+            ></textarea>
+            <div class="orderTable">
+              <table>
+                <tr>
+                  <td>Subtotal:</td>
+                  <td class="price">$ 4363.64</td>
+                </tr>
+                <tr>
+                  <td>Indication shipping:</td>
+                  <td class="price"><span class="color">Free</span></td>
+                </tr>
+                <tr>
+                  <td class="bold">Total:</td>
+                  <td class="price">$ 4363.64</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="bTn text-center">
+              <a href="checkout.php" class="readBtn">Checkout</a>
+            </div>
+            <p class="text-center shortInfo">
+              Free shipping on orders over <span class="price">$250</span> in
+              Canada + US
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shopCart -->
+
+    <?php require_once('includes/footer.php');?>
+  </head>
+</html>

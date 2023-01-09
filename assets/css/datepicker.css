@@ -1,0 +1,86 @@
+/*------------------------ UI-Date Picker ------------------------*
+*
+*
+*------------------------ Asad Rehan Css ------------------------*/
+
+.ui-datepicker {
+    background: #fff;
+    text-align: center;
+    font-family: 'regular';
+}
+.ui-datepicker .ui-datepicker-header {
+    border: 1px solid #ccc;
+    border-bottom: transparent;
+}
+.ui-datepicker .ui-datepicker-title {
+    padding: 10px;
+    background: linear-gradient(#ddd, #eee);
+    color: #019243;
+    font-size: 15px;
+    font-family: 'bold';
+}
+.ui-datepicker th {
+    padding: 5px 10px;
+    font-family: 'bold';
+}
+.ui-datepicker td, .ui-datepicker th {
+    border: 1px solid #ddd;
+    font-weight: normal !important;
+    min-width: 42px;
+}
+.ui-datepicker .ui-state-highlight {
+    border: 1px solid #019243;
+    background: rgba(1, 146, 67, 0.5);
+    color: #fff;
+}
+.ui-datepicker .ui-state-active, .ui-datepicker .ui-state-active:hover {
+    border: 1px solid #019243;
+    background: #019243;
+    color: #fff;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 4px 8px;
+    text-align: right;
+    background: #fafafa;
+    color: #454545;
+    font-size: 13px;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-family: 'fonticon' !important;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #ccc;
+    font-size: 10px;
+    padding: 2px 1px 0px 0px;
+}
+.ui-datepicker .ui-datepicker-prev {
+    left: 7px;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+    content: "\e921";
+}
+.ui-datepicker .ui-datepicker-next {
+    right: 7px;
+}
+.ui-datepicker .ui-datepicker-next:before {
+    content: "\e923";
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    opacity: 0;
+}
+
+@media screen and (max-width:380px) {
+    .ui-datepicker td, .ui-datepicker th {
+        min-width: 38px;
+        max-width: 40px;
+    }
+}

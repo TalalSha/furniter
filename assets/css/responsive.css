@@ -1,0 +1,487 @@
+/*------------------------ MEDIA QUERIES ------------------------*/
+@media screen and (min-width:1200px) {/*body{ background:black}*/}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    /*body {background: orange;}*/
+    #find {
+        display: block;
+    }
+    header form {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 120px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*body {background: yellow;}*/
+    .toggle {
+        display: block;
+    }
+    #topBar {
+        display: none;
+    }
+    header {
+        top: 0px;
+        background: #fff;
+    }
+    #cart {
+        right: 45px;
+    }
+    #heart {
+        right: 80px;
+    }
+    #find {
+        display: block;
+        right: 115px;
+    }
+    header form {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 150px;
+        margin: 0px;
+    }
+    nav {
+        margin: 0px !important;
+        position: fixed;
+        top: 60px;
+        right: -300px;
+        bottom: 0px;
+        background: #fff;
+        width: 300px;
+        border-top: 1px solid #eee;
+        border-left: 1px solid #eee;
+        overflow: auto;
+    }
+    nav ul > li {
+        display: block;
+        float: none;
+        padding: 0px;
+        border-bottom: 1px solid #eee;
+    }
+    nav ul > li > a {
+        padding: 10px 15px 10px;
+        color: #444;
+        border: transparent !important;
+    }
+    nav .miniNav {
+        display: block;
+    }
+    #gallery ul.gallery li {
+        width: 25%;
+    }
+    #gallery ul.gallery li:nth-last-child(1),
+    #gallery ul.gallery li:nth-last-child(2) {
+        display: none;
+    }
+    #testimonial .inner {
+        min-height: 150px;
+    }
+    #testimonial .inner .icon {
+        width: 120px;
+        height: 120px;
+    }
+    #testimonial .inner .content {
+        margin-left: 120px;
+    }
+    #testimonial .inner p {
+        height: 80px;
+    }
+    #testimonial .inner h4 {
+        top: 110px;
+        left: 100px;
+    }
+    #bgBar .content {
+        padding: 0px 100px;
+    }
+    .proLst li {
+        width: 50%;
+    }
+    #shopCart .LSide, #proDetail .LSide, #checkOut .LSide {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    /*body { background: green;}*/
+    .sec_marg {
+        margin-top: 50px !important;
+    }
+    .sec_padd {
+        padding-top: 50px !important;
+    }
+    .main_heading {
+        font-size: 26px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    .readBtn {
+        /*font-size: 10px;*/
+    }
+    .toggle {
+        display: block;
+    }
+    /*--------------    All Pages   --------------*/
+    .toggle {
+        display: block;
+    }
+    #topBar {
+        display: none;
+    }
+    header {
+        top: 0px;
+        background: #fff;
+    }
+    #cart {
+        right: 45px;
+    }
+    #heart {
+        right: 80px;
+    }
+    #find {
+        display: block;
+        right: 115px;
+    }
+    header form {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 150px;
+        margin: 0px;
+    }
+    nav {
+        margin: 0px !important;
+        position: fixed;
+        top: 60px;
+        right: -280px;
+        bottom: 0px;
+        background: #fff;
+        width: 280px;
+        border-top: 1px solid #eee;
+        border-left: 1px solid #eee;
+        overflow: auto;
+    }
+    nav ul > li {
+        display: block;
+        float: none;
+        padding: 0px;
+        border-bottom: 1px solid #eee;
+    }
+    nav ul > li > a {
+        padding: 10px 15px 10px;
+        color: #444;
+        border: transparent !important;
+    }
+    nav .miniNav {
+        display: block;
+    }
+    .upperlay {
+        right: 280px;
+    }
+    #gallery ul.gallery li {
+        width: 33.333333%;
+    }
+    #gallery ul.gallery li:nth-last-child(1) {
+        display: none;
+    }
+    #testimonial .owl-carousel {
+        padding: 0px 60px;
+    }
+    #testimonial .inner {
+        min-height: 150px;
+    }
+    #testimonial .inner .icon {
+        width: 120px;
+        height: 120px;
+    }
+    #testimonial .inner .content {
+        margin-left: 120px;
+    }
+    #testimonial .inner p {
+        height: 80px;
+    }
+    #testimonial .inner h4 {
+        top: 110px;
+        left: 100px;
+    }
+    #testimonial .owl-next {
+        right: 10px;
+    }
+    #testimonial .owl-prev {
+        left: 10px;
+    }
+    #bgBar {
+        padding: 60px 0px 40px;
+    }
+    #bgBar .content {
+        padding: 0px 50px;
+    }
+    #bgBar .content p {
+        font-size: 14px;
+    }
+
+    #slider .slides {
+        height: 100vh;
+        max-height: 380px;
+    }
+    #deals .RSide {
+        margin-bottom: 20px;
+    }
+    #deals .LSide .inner {
+        height: 320px;
+    }
+    footer {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    footer .content {
+        margin-top: 10px;
+    }
+    footer .content h3 {
+        font-size: 16px;
+        margin-bottom: 5px
+    }
+    footer .content ul li {
+        margin-bottom: 4px;
+    }
+    #contact .social {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    #deals .LSide .inner h2 {
+        font-size: 28px;
+    }
+    #deals .LSide .inner h2 span {
+        font-size: 18px;
+    }
+
+    #shopCart .LSide, #proDetail .LSide, #checkOut .LSide, #proList .LSide {
+        margin-bottom: 20px;
+    }
+    #checkOut .orderLst li {
+        width: 33.333333%;
+    }
+    .proLst li {
+        width: 100%;
+    }
+    .subBanner {
+        height: 240px;
+    }
+    .list li {
+        font-size: 12px;
+    }
+    #proDetail h3 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:580px) {
+    /*body { background: blue;}*/
+    .col-xx-12 {
+        width: 100% !important;
+    }
+    .main_heading {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .readBtn {
+        padding: 9px 16px 7px;
+    }
+    /*--------------    All Pages   --------------*/
+    body {
+        font-size: 13px;
+    }
+    #deals .RSide ul li .inner h4 {
+        font-size: 15px;
+    }
+    footer .content ul li,
+    footer .content ul li a,
+    footer .content ul li span,
+    footer .content p {
+        font-size: 12px;
+    }
+    .copyright p {
+        margin: 0px 0px 7px;
+    }
+    .copyright p, .copyright ul {
+        float: none !important;
+        text-align: center;
+    }
+    .subBanner {
+        height: 200px;
+    }
+    #contact h3, #proList h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .proLst li {
+        width: 50%;
+    }
+}
+@media screen and (max-width:480px) {
+    /*body { background: grey;}*/
+    .readBtn {
+        /*padding: 7px 15px 6px;*/
+    }
+    /*--------------    All Pages   --------------*/
+    #deals .RSide ul li .inner h4 {
+        font-size: 14px;
+    }
+    #offer .inner {
+        display: block;
+    }
+    #gallery ul.gallery li {
+        width: 50%;
+    }
+    #gallery ul.gallery li:nth-last-child(1) {
+        display: block;
+    }
+    #testimonial .inner .icon {
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+    #testimonial .inner .content {
+        margin-left: -25px;
+        padding: 15px;
+    }
+    #testimonial .inner h4 {
+        font-size: 16px;
+        top: 90px;
+    }
+    #testimonial .inner h4 span {
+        font-size: 8px;
+    }
+    #testimonial .inner p {
+        height: 150px;
+        font-size: 13px;
+    }
+    #checkOut .orderLst li {
+        width: 50%;
+    }
+    .itemColor {
+        float: none;
+        margin: 0px 0px 15px;
+    }
+    .itemSize {
+        float: none;
+    }
+    .subBanner ul li, .subBanner ul li a {
+        font-size: 11px;
+    }
+    #shopCart .checkList > li {
+        display: block;
+        padding: 15px 0px;
+    }
+    #shopCart .checkList > li._head {
+        display: none;
+    }
+    #shopCart .checkList > li .size_cart {
+        display: none;
+    }
+    #shopCart .checkList > li .qty_cart {
+        margin: 10px 0px;
+    }
+    #shopCart .checkList > li .pro_cart,
+    #shopCart .checkList > li .size_cart,
+    #shopCart .checkList > li .qty_cart,
+    #shopCart .checkList > li .price_cart {
+        width: 100%;
+    }
+    #bgBar .content {
+        padding: 0px;
+    }
+    #bgBar .content p {
+        font-size: 13px;
+    }
+    #gallery ul.gallery li,
+    #deals .RSide ul li,
+    .proLst li {
+        width: 100%;
+    }
+    #proDetail form .bTn li {
+        margin-right: 10px;
+    }
+    #offer .inner .image .circle {
+        width: 60px;
+        height: 60px;
+        padding-top: 18px;
+        font-size: 7px;
+    }
+    #offer .inner .image .circle span {
+        font-size: 24px;
+        margin-top: -10px;
+    }
+    #about h3 {
+        font-size: 18px;
+    }
+    #proDetail h6 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:380px) {
+    /*body { background: violet;}*/
+    .readBtn {
+        padding: 9px 15px 7px;
+    }
+    /*--------------    All Pages   --------------*/
+    .logo {
+        width: 140px;
+        margin-top: 18px;
+    }
+    header form {
+        top: 60px;
+        left: 0px;
+        right: 0px;
+    }
+    #testimonial .owl-carousel {
+        padding: 0px 40px;
+    }
+    #testimonial .inner h4 {
+        font-size: 15px;
+        left: 30px;
+        max-width: 160px;
+    }
+    #testimonial .inner p {
+        font-size: 12px;
+    }
+    #testimonial .owl-next {
+        right: -5px;
+    }
+    #testimonial .owl-prev {
+        left: -5px;
+    }
+    .checkList > li .pro_cart p {
+        font-size: 11px;
+    }
+    #proDetail form .bTn li:nth-last-child(1) {
+        display: none;
+    }
+    #proDetail form .bTn li:nth-last-child(2) {
+        margin-right: 0px;
+    }
+    #proDetail h6 {
+        font-size: 11px;
+    }
+}
